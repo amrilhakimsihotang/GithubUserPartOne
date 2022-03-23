@@ -19,7 +19,7 @@ object DataObj {
         "lukas"
     )
 
-    private val avatar = arrayOf(
+    private val avatar = intArrayOf(
         R.drawable.mojombo,
         R.drawable.wycats,
         R.drawable.ezmobius,
@@ -149,7 +149,7 @@ object DataObj {
                 githubUser.public_repos = public_repos[position]
                 githubUser.follower = follower[position]
                 githubUser.following = following[position]
-
+                list.add(githubUser)
             }
             return list
         }
