@@ -2,5 +2,11 @@
     <string name="app_name">GithubUserPartOne</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="public_repo">Public Repo</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
 
 </resources>
