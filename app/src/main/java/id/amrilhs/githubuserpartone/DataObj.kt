@@ -141,6 +141,7 @@ object DataObj {
             for (position in login.indices) {
 
                 val githubUser = GithubUser()
+                githubUser.login = login[position]
                 githubUser.avatar = avatar[position]
                 githubUser.name = name[position]
                 githubUser.company = company[position]

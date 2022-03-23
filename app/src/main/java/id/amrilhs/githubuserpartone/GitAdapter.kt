@@ -20,7 +20,7 @@ class GitAdapter(private val listGithubUser: ArrayList<GithubUser>) :
                 .apply(RequestOptions().override(widthLong, heightLong))
                 .error(R.drawable.ic_baseline_error_24)
                 .into(listItemBinding.avatar)
-            listItemBinding.company.text = githubUser.company
+            listItemBinding.email.text = githubUser.email
             listItemBinding.txtName.text = githubUser.name
         }
     }
