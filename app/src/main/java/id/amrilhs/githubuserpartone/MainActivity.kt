@@ -26,9 +26,6 @@ class MainActivity : AppCompatActivity() {
         binding.rvHome.layoutManager = GridLayoutManager(this, 2)
         binding.rvHome.setHasFixedSize(true)
         binding.rvHome.adapter = gitAdapter
-
-
     }
-
 
 }

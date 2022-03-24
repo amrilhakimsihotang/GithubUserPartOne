@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GithubUserPartOne</string>
+    <string name="app_name">Github User App</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="username">Username</string>
@@ -8,5 +8,7 @@
     <string name="public_repo">Public Repo</string>
     <string name="follower">Follower</string>
     <string name="following">Following</string>
+    <string name="search">search</string>
+    <string name="about">About me</string>
 
 </resources>
