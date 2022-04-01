@@ -8,8 +8,9 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import id.amrilhs.githubuserpartone.databinding.ListItemBinding
 
-class GitAdapter(private val listGithubUser: ArrayList<GithubUser>) :
+class GitAdapter(private var listGithubUser: ArrayList<GithubUser>) :
     RecyclerView.Adapter<GitAdapter.ListViewHolder>() {
+
 
     inner class ListViewHolder(private val listItemBinding: ListItemBinding) :
         RecyclerView.ViewHolder(listItemBinding.root) {
@@ -24,6 +25,8 @@ class GitAdapter(private val listGithubUser: ArrayList<GithubUser>) :
             listItemBinding.txtName.text = githubUser.name
         }
     }
+
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val binding = ListItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -54,6 +57,7 @@ class GitAdapter(private val listGithubUser: ArrayList<GithubUser>) :
     override fun getItemCount(): Int {
         return listGithubUser.size
     }
+
 
     companion object {
         const val widthLong: Int = 800
