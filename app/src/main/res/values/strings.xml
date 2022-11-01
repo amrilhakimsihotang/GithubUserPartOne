@@ -12,5 +12,5 @@
     <string name="about">About me</string>
     <string name="title_about">About</string>
     <string name="content_about">Application Github User ver 1.0</string>
-
+    <string name="lukas">lukas@wandb.com</string>
 </resources>

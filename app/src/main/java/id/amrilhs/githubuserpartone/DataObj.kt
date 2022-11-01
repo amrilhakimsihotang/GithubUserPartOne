@@ -35,6 +35,7 @@ object DataObj {
         R.drawable.topfunky,
         R.drawable.anotherjesse,
         R.drawable.lukas
+
     )
 
     private val name = arrayOf(
@@ -107,6 +108,8 @@ object DataObj {
         "null@null.com",
         "anotherjesse@gmail.com",
         "lukas@wandb.com"
+        
+
     )
 
     private val public_repos = intArrayOf(
